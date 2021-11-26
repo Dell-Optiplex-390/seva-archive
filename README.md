@@ -4,7 +4,7 @@
 
 ## **<ins>Our Philosophy</ins>**
 
-Seva, in Buddhism, is described as a service performed without any expectation of award whilst performing it. That's what we strive for, an operating system that doesn't get in your way. Protects your privacy, and keeps you at the center.
+Seva. In Hinduism, it is described as a service performed without any expectation of award when performing it. That's what we strive for, an operating system that doesn't get in your way. Protects your privacy, and keeps you at the center.
 
 Operating Systems should allow people to make great tools, yet most modern operating systems only get in the way of it.
 
