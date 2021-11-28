@@ -28,9 +28,7 @@ Proper Documentation on testing, etc... coming soon.
 cargo kbuild
 cargo run --package boot
 ```
-
 ### Booting
-
 #### BIOS boot
 ```
 sudo sh ./bios_boot.sh
