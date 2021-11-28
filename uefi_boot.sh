@@ -1,0 +1,1 @@
+qemu-system-x86_64 -drive format=raw,file=target/x86_64-seva/debug/boot-uefi-seva.img -bios '/Volumes/Tempoto/seva-dev/seva/OVMF-pure-efi.fd'
