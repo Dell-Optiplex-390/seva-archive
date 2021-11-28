@@ -31,9 +31,11 @@ cargo run --package boot
 ### Booting
 #### BIOS boot
 ```
+cd shell-scripts
 sudo sh ./bios_boot.sh
 ```
 #### UEFI boot
 ```
+cd shell-scripts
 sudo sh ./uefi_boot.sh
 ```
