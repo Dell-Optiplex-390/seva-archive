@@ -33,7 +33,6 @@ cargo run --package boot
 ```
 sudo sh ./bios_boot.sh
 ```
-
 #### UEFI boot
 ```
 sudo sh ./uefi_boot.sh
