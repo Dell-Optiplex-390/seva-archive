@@ -17,10 +17,26 @@ Seva is a rust based kernel, that works as our future foundation for the full op
 We believe Rust has huge potential, the major benefits make us believe that the current operating
 system commune should face a fundamental rewrite. It would be better to address this now, rather than later down the line.
 
-We are already seeing progress with using Rust as the foundations of Operating Systems:
+We are already seeing progress with using Rust as the foundations of Operating Systems
 
->* [Redox OS](https://en.wikipedia.org/wiki/Redox_(operating_system))
->* [Linux Using Rust](https://www.theregister.com/2021/07/05/rust_for_linux_kernel_project)
->* [Microsoft using Rust for Windows](https://docs.microsoft.com/en-us/windows/dev-environment/rust/overview)
->* [Apple starting to use Rust for low-level programming](https://news.ycombinator.com/item?id=24442134)
+## Simple Documentation
 
+Proper Documentation on testing, etc... coming soon.
+
+### Compiling kernel
+```
+cargo kbuild
+cargo run --package boot
+```
+
+### Booting
+
+#### BIOS boot
+```
+sudo sh ./bios_boot.sh
+```
+
+#### UEFI boot
+```
+sudo sh ./uefi_boot.sh
+```
