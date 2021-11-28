@@ -19,7 +19,7 @@ system commune should face a fundamental rewrite. It would be better to address 
 
 We are already seeing progress with using Rust as the foundations of Operating Systems
 
-## Simple Documentation
+## **<ins>Simple Documentation</ins>**
 
 **Proper Documentation coming soon.**
 
