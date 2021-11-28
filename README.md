@@ -21,7 +21,7 @@ We are already seeing progress with using Rust as the foundations of Operating S
 
 ## Simple Documentation
 
-Proper Documentation coming soon.
+**Proper Documentation coming soon.**
 
 ### Compiling kernel
 ```
