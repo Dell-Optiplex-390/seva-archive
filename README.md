@@ -1,6 +1,6 @@
 # <p align="center">The Seva Kernel.</p>
 
-<img align="right" width="400" height="400" src="https://github.com/JackGannonUK/seva/blob/main/imgs/seva.gif">
+<img align="right" width="400" height="400" src="https://github.com/JackGannonUK/seva/blob/main/imgs/seva.png">
 
 ## **<ins>Our Philosophy</ins>**
 
@@ -24,17 +24,23 @@ We are already seeing progress with using Rust as the foundations of Operating S
 **Proper Documentation coming soon.**
 
 ### Compiling kernel
+
 ```
 cargo kbuild
 cargo run --package boot
 ```
+
 ### Booting
+
 #### BIOS boot
+
 ```
 cd shell-scripts
 sudo sh ./bios_boot.sh
 ```
+
 #### UEFI boot
+
 ```
 cd shell-scripts
 sudo sh ./uefi_boot.sh
