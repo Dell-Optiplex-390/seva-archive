@@ -1,12 +1,6 @@
 # <p align="center">The Seva Kernel.</p>
 
-<img align="right" width="400" height="400" src="https://github.com/JackGannonUK/seva/blob/main/imgs/seva.png">
-
-## **<ins>Our Philosophy</ins>**
-
-Seva, in Buddhism, is described as a service performed without any expectation of award when performing it. That's what we strive for, an operating system that doesn't get in your way. Protects your privacy, and keeps you at the center.
-
-Operating Systems should allow people to make great tools, yet most modern operating systems only get in the way of it.
+<img align="right" width="400" height="400" src="https://github.com/JackGannonUK/seva/blob/main/imgs/seva.svg">
 
 ## **<ins>What is it?</ins>**
 
@@ -19,29 +13,6 @@ system commune should face a fundamental rewrite. It would be better to address 
 
 We are already seeing progress with using Rust as the foundations of Operating Systems
 
-## **<ins>Simple Documentation</ins>**
+## **<ins>Our Philosophy</ins>**
 
-**Proper Documentation coming soon.**
-
-### Compiling kernel
-
-```
-cargo kbuild
-cargo run --package boot
-```
-
-### Booting
-
-#### BIOS boot
-
-```
-cd shell-scripts
-sudo sh ./bios_boot.sh
-```
-
-#### UEFI boot
-
-```
-cd shell-scripts
-sudo sh ./uefi_boot.sh
-```
+Seva - The act of a selfless service without expectation of a reward. Operating Systems shouldn't expect something from you, such as data, as a result from usage of a simple operating system. We at Zenpto don't expect that, your data is yours; nobody elses.
