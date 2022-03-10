@@ -1,6 +1,6 @@
 # <p align="center">Documentation for the Seva Kernel</p>
 
-## \*\*<ins>Building the kernel.</ins>
+## **<ins>Building the kernel.</ins>**
 
 Building the kernel is easy with rust, once building - rust will automatically download required dependencies or any packages needed.
 
@@ -10,7 +10,7 @@ To build Seva - run the following:
 cargo build
 ```
 
-## \*\*<ins>Running the kernel.</ins>
+## **<ins>Running the kernel.</ins>**
 
 Running the kernel is also straightforward, running the kernel will boot you into a QEMU live session - therefore you need QEMU installed.
 
@@ -24,7 +24,7 @@ cargo xrun
 
 We at Zenpto promote change, if you've added onto our kernel we've provided tools to allow you to thoroughly troubleshoot if any logic errors occur.
 
-**<ins>(If you've made a great improvement on our kernel, help our project by sending a push request)</ins>**
+**<ins>If you've made a great improvement on our kernel, help our project by sending a push request</ins>**
 
 **Troubleshooting not yet implemented, come back later...**
 
