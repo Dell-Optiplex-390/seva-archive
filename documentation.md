@@ -1,26 +1,29 @@
 # <p align="center">Documentation for the Seva Kernel</p>
 
-## Creating Disk Images
+## Running Seva
 
-To create a bootable disk image from our kernel
+Running the kernel is simple, as .cargo/config handles our commands.
 
 ```rust
-> cargo kbuild
-> cargo run --package boot
+cargo xrun
 ```
 
-## Running the (BIOS) Disk Images in QEMU
+## Running Seva in Debug Mode
 
-To run the bios disk images from our kernel use the following command seen below - or use the scripts located in /scripts/ to boot disk images in QEMU.
+Running Seva in Debug Mode is as simple as running.
 
+```rust
+cargo xdebug
 ```
-qemu-system-x86_64 -drive format=raw,file=target/x86_64-seva/debug/boot-bios-seva.img
+
+## Running Unit and Integration tests
+
+Finally, if you have made any modifications to the kernel and want to test there are no fatal logic errors, run the following command below.
+
+```rust
+cargo xtest
 ```
 
-## Running the (UEFI) Disk Images in QEMU
+Running Seva in test mode will look like the following.
 
-As seen above, the command used is similar - however `OVMF_pure-efi.d` needs to be passed to the kernel. Again, you can run using the command seen below - or use the scripts located in /scripts/ to boot disk images in QEMU.
-
-```
-qemu-system-x86_64 -drive format=raw,file=target/x86_64-seva/debug/boot-uefi-seva.img -bios ../seva/  boot/OVMF-pure-efi.fd
-```
+<img align="center" width="400" height="400" src="https://github.com/JackGannonUK/seva/blob/main/imgs/test.svg">
