@@ -26,4 +26,4 @@ cargo xtest
 
 Running Seva in test mode will look like the following.
 
-<img align="center" width="400" height="400" src="https://github.com/JackGannonUK/seva/blob/main/imgs/test.svg">
+<img align="center" width="400" height="400" src="https://github.com/JackGannonUK/seva/blob/main/imgs/test.png">
