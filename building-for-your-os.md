@@ -6,6 +6,7 @@ Before anything, you want to make sure you have done the following.
 
 - QEMU is installed
 - Rustup is set to `nightly` (nightly must be installed)
+- llvm-tools-preview is installed via `rustup component add llvm-tools-preview`
 
 ### Rust-Toolchain backup
 

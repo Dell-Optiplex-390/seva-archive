@@ -1,37 +1,30 @@
 # <p align="center">Documentation for the Seva Kernel</p>
 
-## **<ins>Building the kernel.</ins>**
+## Notice
 
-Building the kernel is easy with rust, once building - rust will automatically download required dependencies or any packages needed.
+This page is not complete and is suspected to change alongside development with the kernel.
 
-To build Seva - run the following:
+## Creating Disk Images
 
-```
-cargo build
-```
+To create a bootable disk image from our kernel
 
-## **<ins>Running the kernel.</ins>**
-
-Running the kernel is also straightforward, running the kernel will boot you into a QEMU live session - therefore you need QEMU installed.
-
-To run Seva - run the following:
-
-```
-cargo xrun
+```rust
+> cargo kbuild
+> cargo run --package boot
 ```
 
-## **<ins>Testing the kernel.</ins>**
+## Running the (BIOS) Disk Images in QEMU
 
-We at Zenpto promote change, if you've added onto our kernel we've provided tools to allow you to thoroughly troubleshoot if any logic errors occur.
+To run the bios disk images from our kernel use the following command seen below - or use the scripts located in /scripts/ to boot disk images in QEMU.
 
-**<ins>If you've made a great improvement on our kernel, help our project by sending a push request</ins>**
+```
+qemu-system-x86_64 -drive format=raw,file=target/x86_64-seva/debug/boot-bios-seva.img
+```
 
-**Troubleshooting not yet implemented, come back later...**
+## Running the (UEFI) Disk Images in QEMU
 
-## **<ins>Contact us for more information.</ins>**
+As seen above, the command used is similar - however `OVMF_pure-efi.d` needs to be passed to the kernel. Again, you can run using the command seen below - or use the scripts located in /scripts/ to boot disk images in QEMU.
 
-Feel free to contact us - if you feel like there should be more here then send us a pull request.
-
-If not feel free to email us at:
-
-**<ins>jackgannonuk@gmail.com</ins>**
+```
+qemu-system-x86_64 -drive format=raw,file=target/x86_64-seva/debug/boot-uefi-seva.img -bios ../seva/  boot/OVMF-pure-efi.fd
+```
