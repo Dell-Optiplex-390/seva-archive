@@ -1,9 +1,5 @@
 # <p align="center">Documentation for the Seva Kernel</p>
 
-## Notice
-
-This page is not complete and is suspected to change alongside development with the kernel.
-
 ## Creating Disk Images
 
 To create a bootable disk image from our kernel
