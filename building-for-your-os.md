@@ -19,4 +19,4 @@ cd Seva
 cargo build -p kernel_runner --release
 ```
 
-After this has been completed, follow our <a href="https://github.com/JackGannonUK/Seva/blob/main/documentation.md">Documentation</a>
+### <p align="center">After this has been completed, follow our <a href="https://github.com/JackGannonUK/Seva/blob/main/documentation.md">Documentation</a></p>
