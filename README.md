@@ -19,4 +19,4 @@ Seva - The act of a selfless service without expectation of a reward. Operating 
 
 ### <p align="center"><a href="https://github.com/JackGannonUK/Seva/blob/main/building-for-your-os.md">Building for your OS</a></p>
 
-### <p align="center"><a href="https://github.com/JackGannonUK/Seva/blob/main/documentation.md"></p>
+### <p align="center"><a href="https://github.com/JackGannonUK/Seva/blob/main/documentation.md">Documentation</a></p>
