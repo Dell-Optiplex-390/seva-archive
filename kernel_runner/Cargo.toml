@@ -1,0 +1,7 @@
+[package]
+name = "kernel_runner"
+version = "0.1.0"
+authors = ["Jack Gannon <jackgannonuk@gmail.com>"]
+
+[dependencies]
+llvm-tools = "0.1.1"

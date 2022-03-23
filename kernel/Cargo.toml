@@ -1,0 +1,25 @@
+[package]
+name = "kernel"
+version = "0.1.0"
+authors = ["Jack Gannon <jackgannonuk@gmail.com"]
+edition = "2018"
+
+[[bin]]
+name = "kernel"
+test = false
+
+[[test]]
+name = "simple_boot"
+harness = false
+
+[[test]]
+name = "page_fault"
+harness = false
+
+[[test]]
+name = "ata_read_write"
+harness = false
+
+[[test]]
+name = "read_write_syscall"
+harness = false
