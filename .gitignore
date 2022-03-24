@@ -21,3 +21,7 @@ node_modles
 
 # Rust Specific Files
 Cargo.lock
+
+# QEMU Files
+qemu-system-x86_64
+.qemu-system-x86_64
