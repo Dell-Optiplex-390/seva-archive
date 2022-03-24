@@ -5,7 +5,7 @@ target = "x86_64-seva.json" # Workspaces ignore targets for no valid reasons
 runner = ["target/release/kernel_runner"]
 
 [term]
-color = 'always'
+colour = 'always'
 
 # Current workaround for workspaces being bugged
 [alias]
