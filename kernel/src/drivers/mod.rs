@@ -2,7 +2,7 @@
 
 pub mod e1000;
 pub mod ps2_keyboard;
-pub mod vga_driver;
+pub mod vga_drivers;
 
 use crate::arch::pci::Device;
 

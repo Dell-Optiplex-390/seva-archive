@@ -1,4 +1,4 @@
-use super::vga_driver::WRITER;
+use super::vga_drivers::WRITER;
 use core::sync::atomic::{AtomicBool, Ordering};
 use core::{ptr, str};
 

@@ -1,4 +1,4 @@
-//! ATA PIO driver to communicate with hard disk
+//! ATA PIO drivers to communicate with hard disk
 //! Read, write and get stoage space on master drive
 //! Limited to 28bit LBA
 

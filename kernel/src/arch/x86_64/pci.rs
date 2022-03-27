@@ -1,5 +1,5 @@
 use super::port;
-use crate::driver;
+use crate::drivers;
 use alloc::vec::Vec;
 
 const CONFIG_ADDRESS: u16 = 0xCF8;
@@ -14,7 +14,7 @@ const BAR: u8 = 16;
 
 pub fn init() {
     let devices = discover_devices();
-    driver::init(&devices);
+    drivers::init(&devices);
 }
 
 fn discover_devices() -> Vec<Device> {

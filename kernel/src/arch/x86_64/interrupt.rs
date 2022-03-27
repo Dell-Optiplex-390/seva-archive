@@ -1,7 +1,7 @@
 use super::gdt::KERNEL_CODE_SEG;
 use super::pic::{PICS, PIC_1_OFFSET};
 use super::port;
-use crate::driver::ps2_keyboard;
+use crate::drivers::ps2_keyboard;
 use crate::println;
 use core::arch::asm;
 use core::mem::{self, MaybeUninit};

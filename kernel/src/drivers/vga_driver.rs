@@ -182,7 +182,7 @@ pub fn erase_byte() {
 
 #[macro_export]
 macro_rules! print {
-    ($($arg:tt)*) => ($crate::driver::vga_driver::_print(format_args!($($arg)*)));
+    ($($arg:tt)*) => ($crate::drivers::vga_drivers::_print(format_args!($($arg)*)));
 }
 
 #[macro_export]

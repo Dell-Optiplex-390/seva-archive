@@ -5,7 +5,7 @@ mod env;
 mod reader;
 mod types;
 
-use crate::driver::ps2_keyboard::readline;
+use crate::drivers::ps2_keyboard::readline;
 use crate::{print, println};
 use alloc::boxed::Box;
 use alloc::rc::Rc;

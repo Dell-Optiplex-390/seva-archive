@@ -1,4 +1,4 @@
-/// e1000 driver based on
+/// e1000 drivers based on
 /// https://www.intel.com/content/dam/www/public/us/en/documents/manuals/pcie-gbe-controllers-open-source-manual.pdf
 use crate::arch::pci::*;
 
