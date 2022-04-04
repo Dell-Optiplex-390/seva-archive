@@ -15,7 +15,7 @@ We are already seeing progress with using Rust as the foundations of Operating S
 
 ## **Our Philosophy**
 
-Seva - The act of a selfless service without expectation of a reward. Operating Systems shouldn't expect something from you, such as data, as a result from usage of a simple operating system. We at Zenpto don't expect that, your data is yours; nobody elses.
+Seva - The act of a selfless service without expectation of a reward. Operating Systems shouldn't expect something from you, such as data, as a result from usage of a simple operating system. We at Uquinix don't expect that, your data is yours; nobody elses.
 
 ### <p align="center"><a href="https://github.com/JackGannonUK/Seva/blob/main/building-seva.md">Building Seva</a></p>
 
