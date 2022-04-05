@@ -1,6 +1,6 @@
 # <p align="center">The Seva Kernel.</p>
 
-<img align="right" width="400" height="400" src="https://github.com/JackGannonUK/seva/blob/main/imgs/seva.svg">
+<img align="right" width="400" height="400" src="https://github.com/JackGannonUK/seva/blob/main/imgs/seva.gif">
 
 ## **What is it?**
 
